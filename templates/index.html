@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        form>div>div {
+            display: flex;
+            flex-direction: column;
+            gap: 4px
+        }
+    </style>
+  </head>
+  <body>
+    <form action="" method="post">
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+          width: 300px;
+          margin: auto;
+        "
+      >
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+
+        <div>
+          <label for="project-name">Project</label>
+          <input type="text" name="project-name" id="project-name" />
+        </div>
+
+        <div>
+          <label for="project-description">Project Description</label>
+          <input
+            type="text"
+            name="project-description"
+            id="project-description"
+          />
+        </div>
+
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
